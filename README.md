@@ -3,8 +3,13 @@
 Arcade style website where a user can choose from a range of classic games and compete with others for high scores.
 Games are points based and there is a user rank for the Arcade. 
 
+### Who are we?
 
-### TECH STACK
+- [**James Oddy**](https://github.com/jamesoddy8)
+- [**Jara Santamaria Martinez**](https://github.com/jarasmar)
+- [**George Swarbrick**](https://github.com/Swarbzz)
+
+### Tech Stack
 
 - JavaScript
 - React
@@ -23,7 +28,7 @@ Games are points based and there is a user rank for the Arcade.
 - User can Sign out
 
 
-### FEATURES
+### Features
 
 #### Views & Mockups
 
@@ -31,6 +36,7 @@ Games are points based and there is a user rank for the Arcade.
 - Main Arcade (username, general score and dropdown, sign out, list of games)
 - Playing screen (game screen, score, back to arcade button)
 
+![mockup](./images/arcade_mockup.jpg)
 
 #### Users
 
