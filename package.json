@@ -1,0 +1,27 @@
+{
+  "name": "Arcade",
+  "version": "1.0.0",
+  "description": "Arcade style website where a user can choose from a range of classic games and compete with others for high scores. Games are points based and there is a user rank for the Arcade.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jarasmar/Arcade.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jarasmar/Arcade/issues"
+  },
+  "homepage": "https://github.com/jarasmar/Arcade#readme",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "ejs": "^3.1.5",
+    "express": "^4.17.1",
+    "nodemon": "^2.0.4"
+  }
+}
