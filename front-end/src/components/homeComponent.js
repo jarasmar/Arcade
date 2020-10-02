@@ -2,7 +2,7 @@ import React from 'react';
 import {useEffect, useState} from 'react';
 
 
-export const Hello = ()=> {
+export const Home = ()=> {
     const [initialState, setInitialState] = useState([])
 
     useEffect(()=> {
@@ -10,7 +10,7 @@ export const Hello = ()=> {
             if(res.ok){
             return res.json()
             }
-        }).then(jsonResponse => setInitialState(jsonResponse.hello))
+        }).then(jsonResponse => setInitialState(jsonResponse.games))
     },[])
 
     return(<div>
