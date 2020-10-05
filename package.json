@@ -21,10 +21,15 @@
   },
   "homepage": "https://github.com/jarasmar/Arcade#readme",
   "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.0",
     "concurrently": "^5.3.0",
     "dotenv": "^8.2.0",
     "ejs": "^3.1.5",
     "express": "^4.17.1",
+    "express-validator": "^6.6.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.10.7",
     "nodemon": "^2.0.4",
     "react-router-dom": "^5.2.0"
   }
