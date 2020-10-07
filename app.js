@@ -1,5 +1,6 @@
 const express = require('express');
 const bodyParser = require("body-parser");
+const userRoute = require("./back-end/routes/userRoutes");
 const InitiateMongoServer = require("./back-end/config/db");
 require('dotenv').config();
 
@@ -16,6 +17,8 @@ app.listen(PORT, ()=> {
 
 // Middleware
 app.use(bodyParser.json());
+
+app.use("/user", userRoute);
 
 app.get("/", (req, res) => {
     res.json({ message: 'API working'});

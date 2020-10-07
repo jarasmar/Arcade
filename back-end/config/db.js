@@ -1,7 +1,7 @@
 const mongoose = require('mongoose');
 require('dotenv').config();
 
-const MONGOURI = `mongodb+srv://jarasmar:<${process.env.MONGO_PASSWORD}>@arcade.vr4cy.mongodb.net/<${DB_NAME}>?retryWrites=true&w=majority`
+const MONGOURI = `mongodb+srv://jarasmar:<${process.env.MONGO_PASSWORD}>@arcade.vr4cy.mongodb.net/<${process.env.DB_NAME}>?retryWrites=true&w=majority`
 
 const InitiateMongoServer = async () => {
   try {
@@ -15,4 +15,4 @@ const InitiateMongoServer = async () => {
   }
 };
 
-module.exports = InititateMongoServer;
+module.exports = InitiateMongoServer;
